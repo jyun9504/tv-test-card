@@ -1,25 +1,7 @@
-# video-test-card
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 # tv-test-card
+
+## CSS Grid | 畫出 TV 檢驗圖
+
+[https://miro.medium.com/max/2000/0*fJAlpraWBHJau3Lu.png]
+
+DEMO: https://jyun9504.github.io/tv-test-card/
