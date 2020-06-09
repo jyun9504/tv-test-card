@@ -1,42 +1,42 @@
 <template>
   <div class="circle-xl">
     <div class="circle-row-1"></div>
-      <div class="circle-row-2">
-        <div :class="'circle-row-2__block-' + i" v-for="i in 3" :key="i"></div>
-      </div>
-      <div class="circle-row-3">
-        <div :class="'circle-row-3__block-' + i" v-for="i in 3" :key="i"></div>
-      </div>
-      <div class="circle-row-4">
-        <div :class="'circle-row-4__block-' + i" v-for="i in 16" :key="i"></div>
-      </div>
-      <div class="circle-row-5">
-        <div :class="'circle-row-5__block-' + i" v-for="i in 6" :key="i"></div>
-      </div>
-      <div class="circle-row-6">
-        <div :class="'circle-row-6__block-' + i" v-for="i in 26" :key="i"></div>
-      </div>
-      <div class="circle-row-7">
-        <div class="circle-row-7__block-1"></div>
-      <div class="circle-row-7__block-2">
-        <div :class="'circle-row-7__block-2-' + i" v-for="i in 10" :key="i"></div>
-      </div>
-      <div class="circle-row-7__block-3">
-        <div :class="'circle-row-7__block-3-' + i" v-for="i in 12" :key="i"></div>
-      </div>
-      <div class="circle-row-7__block-4">
-        <div :class="'circle-row-7__block-3-' + i" v-for="i in 16" :key="i"></div>
-      </div>
-      <div class="circle-row-7__block-5">
-        <div :class="'circle-row-7__block-3-' + i" v-for="i in 22" :key="i"></div>
-      </div>
-      <div class="circle-row-7__block-6">
-        <div :class="'circle-row-7__block-3-' + i" v-for="i in 30" :key="i"></div>
-      </div>
-      <div class="circle-row-7__block-7">
-        <div :class="'circle-row-7__block-3-' + i" v-for="i in 40" :key="i"></div>
-      </div>
-      <div class="circle-row-7__block-8"></div>
+    <div class="circle-row-2">
+      <div :class="'circle-row-2__block-' + i" v-for="i in 3" :key="i"></div>
+    </div>
+    <div class="circle-row-3">
+      <div :class="'circle-row-3__block-' + i" v-for="i in 3" :key="i"></div>
+    </div>
+    <div class="circle-row-4">
+      <div :class="'circle-row-4__block-' + i" v-for="i in 16" :key="i"></div>
+    </div>
+    <div class="circle-row-5">
+      <div :class="'circle-row-5__block-' + i" v-for="i in 6" :key="i"></div>
+    </div>
+    <div class="circle-row-6">
+      <div :class="'circle-row-6__block-' + i" v-for="i in 26" :key="i"></div>
+    </div>
+    <div class="circle-row-7">
+      <div class="circle-row-7__block-1"></div>
+    <div class="circle-row-7__block-2">
+      <div :class="'circle-row-7__block-2-' + i" v-for="i in 10" :key="i"></div>
+    </div>
+    <div class="circle-row-7__block-3">
+      <div :class="'circle-row-7__block-3-' + i" v-for="i in 12" :key="i"></div>
+    </div>
+    <div class="circle-row-7__block-4">
+      <div :class="'circle-row-7__block-3-' + i" v-for="i in 16" :key="i"></div>
+    </div>
+    <div class="circle-row-7__block-5">
+      <div :class="'circle-row-7__block-3-' + i" v-for="i in 22" :key="i"></div>
+    </div>
+    <div class="circle-row-7__block-6">
+      <div :class="'circle-row-7__block-3-' + i" v-for="i in 30" :key="i"></div>
+    </div>
+    <div class="circle-row-7__block-7">
+      <div :class="'circle-row-7__block-3-' + i" v-for="i in 40" :key="i"></div>
+    </div>
+    <div class="circle-row-7__block-8"></div>
     </div>
     <div class="circle-row-8">
       <div :class="'circle-row-8__block-' + i" v-for="i in 6" :key="i"></div>
@@ -56,7 +56,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .circle-xl{
   grid-row: 1 / -1;
