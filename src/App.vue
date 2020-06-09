@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import TestCard from './components/TestCard.vue';
+import TestCard from './views/TestCard.vue';
 
 export default {
   name: 'App',
